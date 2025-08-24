@@ -2,6 +2,8 @@
 
 FreeCAD's contribution process is inspired by the Collective Code Construction Contract which itself is an evolution of the github.com Fork and Pull Model.
 
+Additional guidance on repository layout and development tooling can be found in [DEVELOPMENT.md](DEVELOPMENT.md).
+
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
 
 
