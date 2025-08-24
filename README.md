@@ -65,6 +65,11 @@ their respective platforms:
 - [macOS](https://wiki.freecad.org/Compile_on_MacOS)
 - [MinGW](https://wiki.freecad.org/Compile_on_MinGW)
 
+Development
+-----------
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for the repository layout, tooling, and developer guidelines.
+
 
 Reporting Issues
 ---------

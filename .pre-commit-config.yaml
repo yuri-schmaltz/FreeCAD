@@ -5,33 +5,12 @@
 files: |
     (?x)^(
         .github|
-        src/Base|
-        src/Main|
-        src/Tools|
-        tests/src|
-        src/Mod/Assembly|
-        src/Mod/CAM|
-        src/Mod/Cloud|
-        src/Mod/Fem|
-        src/Mod/Help|
-        src/Mod/Import|
-        src/Mod/Inspection|
-        src/Mod/JtReader|
-        src/Mod/Measure|
-        src/Mod/Mesh|
-        src/Mod/MeshPart|
-        src/Mod/Plot|
-        src/Mod/Points|
-        src/Mod/ReverseEngineering|
-        src/Mod/Robot|
-        src/Mod/Show|
-        src/Mod/Sketcher|
-        src/Mod/Spreadsheet|
-        src/Mod/Start|
-        src/Mod/Surface|
-        src/Mod/Test|
-        src/Mod/Tux|
-        src/Mod/Web
+        src|
+        tests|
+        tools|
+        package|
+        contrib|
+        cMake
     )
 exclude: |
     (?x)^(
@@ -69,3 +48,10 @@ repos:
     rev: 182152eb8c5ce1cf5299b956b04392c86bd8a126  # frozen: v20.1.8
     hooks:
         -   id: clang-format
+-   repo: local
+    hooks:
+    -   id: todo-issue-link
+        name: Ensure TODOs reference an issue
+        entry: python tools/lint/check_todo.py
+        language: python
+        types: [text]

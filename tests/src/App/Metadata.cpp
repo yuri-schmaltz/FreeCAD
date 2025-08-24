@@ -185,8 +185,8 @@ TEST(VersionTest, VersionOperatorComparison)
     ASSERT_LT(version_2_3_4_delta, version_2_3_4_epsilon);
 }
 
-// TODO: Test Dependency
-// TODO: Test GenericMetadata
+// TODO(#0001): Test Dependency
+// TODO(#0002): Test GenericMetadata
 
 class MetadataTest: public ::testing::Test
 {
